@@ -31,7 +31,7 @@ function iniciarJogo() {
     if(direction == "left")  snakeX -= box;
     if(direction == "right") snakeY += box;
     if(direction == "left")  snakeY -= box;
-
+// retira o último elemento
     snake.pop();
 
     let newHead = {
